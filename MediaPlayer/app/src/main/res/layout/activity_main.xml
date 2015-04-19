@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.giovanny.mediaplayer.MainActivity">
+
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="0dp"
+        android:id="@+id/tvTitle"
+        android:layout_gravity="center"
+        android:layout_weight="0.34"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp" />
+
+    <ListView android:id="@+id/lvPlayList"
+        android:layout_height="419dp"
+        android:divider="#1919A6"
+        android:dividerHeight="4px"
+        android:layout_width="fill_parent"
+        android:footerDividersEnabled="true"
+        android:focusableInTouchMode="false"
+        android:headerDividersEnabled="false"
+        android:fastScrollEnabled="false"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.20">
+    </ListView>
+</LinearLayout>
